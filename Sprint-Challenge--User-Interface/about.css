@@ -1,7 +1,7 @@
 .navigation {
 
   display: flex; 
-  font-size: 15px;
+  font-size: 14px;
   margin: 20px;
   justify-content: space-evenly;
 
@@ -23,7 +23,8 @@ nav {
     justify-content: space-evenly;
     font-size: 12px;
     height: 35px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom:0px;
     
 
 
@@ -57,50 +58,65 @@ p {
 
 .TopContent {
 
-      Display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin-bottom: 20px;
-      font:20px;
-      flex-direction: column;
 
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80%;
 }
+    
 
 
 .TopContent .Strategy .HowWork {
 
-      width: 50%;
+      flex-wrap: wrap;
       padding: 10px;
       padding-bottom: 20px; 
-      flex-wrap: wrap;
+      width:80%;
+      margin:30px;
 }
 
 
 .logo2 {
 
-  padding:5px;
-  margin-bottom: 15px;
+      padding:1px;
+      margin-bottom: 15x;
 
 }
 
 
+.BottomContent {
 
-/* .BottomContent {
-
-
-      Display: flex;
+  
+      display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-evenly;
+      width: 80%;
+      margin: 30px;
+  
+}
+
+p {
+
+    width: 50%;
+
+
+}
+
+p1 {
+
+
+      font-size: 18px;
 
 }
 
 
-.TopContent .Strategy {
+
+.LetsW {
 
 
-    width: 90px;
+      padding: 20px;
 
 
-
-
-} */ */ */ */
+}
