@@ -1,0 +1,43 @@
+
+.navigation {
+
+  display: flex; 
+  font-size: 15px;
+  margin: 20px;
+  justify-content: space-evenly;
+
+
+}
+
+
+.TopContent {
+
+      Display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      font:20px;
+
+}
+
+
+
+.BottomContent {
+
+
+      Display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+}
+
+
+.TopContent .Strategy {
+
+
+    width: 90px;
+
+
+
+
+}
